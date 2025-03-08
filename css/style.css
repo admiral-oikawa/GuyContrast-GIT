@@ -4246,6 +4246,16 @@ html.is-animating .mil-menu-frame {
 }
 
 /* to disable right click and saving images */
-img { pointer-events: none; }
-img { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 /* -------------------------------------------
