@@ -4257,5 +4257,24 @@ img {
   -webkit-user-drag: none;
   user-drag: none;
 }
--webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
+img {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+img {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
 /* -------------------------------------------

@@ -1052,6 +1052,10 @@ $(function () {
 });
 
 // to disable right click and saving images
-document.addEventListener('contextmenu', function (e) {
+$(document).on('contextmenu', 'img', function (e) {
+    return false;
+});
+
+$('img').on('dragstart', function (e) {
     e.preventDefault();
 });
