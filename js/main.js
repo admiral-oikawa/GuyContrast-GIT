@@ -1059,3 +1059,10 @@ $(document).on('contextmenu', 'img', function (e) {
 $('img').on('dragstart', function (e) {
     e.preventDefault();
 });
+
+let allImages = document.querySelectorAll("img");
+allImages.forEach((value)=>{
+    value.oncontextmenu = (e)=>{
+        e.preventDefault();
+    }
+})
