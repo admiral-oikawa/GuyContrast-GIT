@@ -41,6 +41,8 @@
 --------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
+/* -------------------------------------------
+
 main
 
 ------------------------------------------- */
@@ -4244,37 +4246,3 @@ html.is-animating .mil-menu-frame {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
-
-/* to disable right click and saving images */
-img {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-  user-drag: none;
-}
-
-img {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-}
-
-img {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-  user-drag: none;
-}
-
-img {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-}
-/* -------------------------------------------
