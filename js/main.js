@@ -1050,3 +1050,12 @@ $(function () {
     });
 
 });
+
+// to disable right click and saving images
+$(document).on('contextmenu', 'img', function (e) {
+    return false;
+});
+
+$('img').on('dragstart', function (e) {
+    e.preventDefault();
+});
